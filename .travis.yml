@@ -1,1 +1,4 @@
 language: html
+before_install:
+- openssl aes-256-cbc -K $encrypted_7538eed95e94_key -iv $encrypted_7538eed95e94_iv
+  -in travis_rsa.enc -out travis_rsa -d
