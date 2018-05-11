@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 language: html
 before_install:
 - openssl aes-256-cbc -K $encrypted_7538eed95e94_key -iv $encrypted_7538eed95e94_iv
   -in travis_rsa.enc -out travis_rsa -d
+=======
+language: python
+>>>>>>> 8012c4c3569d8be36f2950899c0d9dcb6b972289
