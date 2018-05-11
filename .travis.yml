@@ -1,4 +1,4 @@
-anguage: html
+language: html
 addons:
   ssh_known_hosts: /home/travis/.ssh/known_hosts
 branches:
